@@ -1,9 +1,12 @@
 import React from 'react'
 
-const App = () =>{
+const Hello = (props) => {
     return(
-        <h1>Hi! I`m Hello Component!</h1>
+
+        <h1>
+            Hello Im Component
+        </h1>
+        
     )
 }
-
-export default App;
+export default Hello;
