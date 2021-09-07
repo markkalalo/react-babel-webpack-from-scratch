@@ -3,9 +3,10 @@ import React from 'react'
 const Hello = () => {
     return(
 
-        <h1>
-            Hellow Im Component
-        </h1>
+        <div>
+            <h1>Hellow Im Component</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        </div>
         
     )
 }
