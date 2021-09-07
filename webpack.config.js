@@ -2,7 +2,6 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const path = require("path");
 
 module.exports = {
-    mode: 'development',
     entry: "./src/index.js",
         output: {
             filename: "bundle.[hash].js",
@@ -35,10 +34,11 @@ module.exports = {
                 "sass-loader",
                 ],
             },
-            // {
-            //     test: /\.png|svg|jpg|gif$/,
-            //     use: ["file-loader"],
-            // },
+            {
+                // npm install file-loader
+                test: /\.png|svg|jpg|gif$/i,
+                use: ["file-loader"],
+            },
         ],
     },
 };
