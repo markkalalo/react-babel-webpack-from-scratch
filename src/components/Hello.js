@@ -1,11 +1,18 @@
 import React from 'react'
+import { HelloItem } from './HelloItem'
 
 const Hello = () => {
     return(
 
         <div>
-            <h1>Hellow Im Component</h1>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            {HelloItem.map((item, index) => {
+                return(
+                    <div key={index}>
+                        <h1>{item.title}</h1>
+                        <p>{item.description}</p>
+                    </div>
+                )
+            })}
         </div>
         
     )
