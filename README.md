@@ -4,6 +4,12 @@ A boiler plate for creating react applications bundled by webpack.
 
 By: Mark Kalalo
 
+## Features
+
+- SCSS
+- Webpack
+- Babel
+
 ## Installation
 
 - `git clone <URL>`
