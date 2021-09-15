@@ -8,7 +8,9 @@
     "build": "webpack --config webpack.config.js --mode production"
   },
   "keywords": [],
-  "author": "",
+  "author": {
+    "name": "Mark Kalalo"
+  },
   "license": "ISC",
   "dependencies": {
     "@babel/core": "^7.15.5",
