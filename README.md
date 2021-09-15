@@ -7,7 +7,7 @@ By: Mark Kalalo
 ## Installation
 
 - `git clone <URL>`
-- cd <project>
+- `cd <FOLDER_NAME>`
 - npm install
 - npm start
 - visit `http://localhost:8080/`
