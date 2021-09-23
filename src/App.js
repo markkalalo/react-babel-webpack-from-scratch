@@ -1,21 +1,23 @@
-import React from 'react'
+import React from "react";
 
 // import scss
-import './App.scss'
+import "./App.scss";
 
 // import components
-import Home from './components/Hello'
+import Home from "./components/Hello";
+
+import LayoutDefault from "./components/layouts/LayoutDefault";
 
 // import images
-import sampleimg from './assets/images/smartphone.png'
+import sampleimg from "./assets/images/smartphone.png";
 
-const App = () =>{
-    return(
-        <div>
+const App = () => {
+    return (
+        <LayoutDefault>
             <Home />
             <img src={sampleimg} alt="sampleimg" />
-        </div>
-    )
-}
+        </LayoutDefault>
+    );
+};
 
 export default App;

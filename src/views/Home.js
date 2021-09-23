@@ -1,13 +1,13 @@
-import React from 'react'
+import React from "react";
 
-import Hello from '../components/Hello'
+import Hello from "../components/Hello";
 
 const Home = () => {
     return (
         <>
             <Hello />
         </>
-    )
-}
+    );
+};
 
-export default Home
+export default Home;

@@ -3,22 +3,22 @@ const path = require("path");
 
 module.exports = {
     entry: "./src/index.js",
-        output: {
-            filename: "bundle.[hash].js",
-            path: path.resolve(__dirname, "dist"),
-        },
-        plugins: [
-            new HtmlWebpackPlugin({
-                favicon: './public/favicon.ico',
-                template: "./public/index.html",
-            }),
-        ],
-        resolve: {
-            modules: [__dirname, "src", "node_modules"],
-            extensions: ["*", ".js", ".jsx", ".tsx", ".ts"],
-        },
-        module: {
-            rules: [
+    output: {
+        filename: "bundle.[hash].js",
+        path: path.resolve(__dirname, "production"),
+    },
+    plugins: [
+        new HtmlWebpackPlugin({
+            favicon: "./public/favicon.ico",
+            template: "./public/index.html",
+        }),
+    ],
+    resolve: {
+        modules: [__dirname, "src", "node_modules"],
+        extensions: ["*", ".js", ".jsx", ".tsx", ".ts"],
+    },
+    module: {
+        rules: [
             {
                 test: /\.jsx?$/,
                 exclude: /node_modules/,
@@ -27,12 +27,12 @@ module.exports = {
             {
                 test: /\.scss$/,
                 use: [
-                // Creates `style` nodes from JS strings
-                "style-loader",
-                // Translates CSS into CommonJS
-                "css-loader",
-                // Compiles Sass to CSS
-                "sass-loader",
+                    // Creates `style` nodes from JS strings
+                    "style-loader",
+                    // Translates CSS into CommonJS
+                    "css-loader",
+                    // Compiles Sass to CSS
+                    "sass-loader",
                 ],
             },
             {

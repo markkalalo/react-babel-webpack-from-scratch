@@ -6,17 +6,18 @@ By: Mark Kalalo
 
 ## Features
 
-- SCSS
-- Webpack
-- Babel
+-   SCSS
+-   Webpack
+-   Babel
 
 ## Installation
 
-- `git clone <URL>`
-- `cd <FOLDER_NAME>`
-- npm install
-- npm start
-- visit `http://localhost:8080/`
+-   `git clone <URL>`
+-   `cd <FOLDER_NAME>`
+-   npm install
+-   npm install webpack
+-   npm start
+-   visit `http://localhost:8080/`
 
 ## Available Scripts
 
