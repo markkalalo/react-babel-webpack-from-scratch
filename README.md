@@ -15,6 +15,7 @@ By: Mark Kalalo
 - `git clone <URL>`
 - `cd <FOLDER_NAME>`
 - npm install
+- npm install webpack or if you want to install it globally -> npm install -g webpack 
 - npm start
 - visit `http://localhost:8080/`
 
