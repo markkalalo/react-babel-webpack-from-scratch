@@ -12,12 +12,21 @@ By: Mark Kalalo
 
 ## Installation
 
+<<<<<<< HEAD
 -   `git clone <URL>`
 -   `cd <FOLDER_NAME>`
 -   npm install
 -   npm install webpack
 -   npm start
 -   visit `http://localhost:8080/`
+=======
+- `git clone <URL>`
+- `cd <FOLDER_NAME>`
+- npm install
+- npm install webpack or if you want to install it globally -> npm install -g webpack 
+- npm start
+- visit `http://localhost:8080/`
+>>>>>>> 8b1b8d887c2cca1e605a635216c735607a14f0f0
 
 ## Available Scripts
 
